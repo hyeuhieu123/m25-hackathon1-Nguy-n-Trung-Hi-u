@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.table-basic {
+  width: 70%;
+
+  border: 1px solid #ddd;
+}
+
+.table-basic th,
+.table-basic td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.table-basic img {
+  width: 100%;
+
+  object-fit: cover;
+}
+.form {
+  border: 1px solid black;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
